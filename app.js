@@ -9,6 +9,9 @@ app.get("/myName/", (rq, res) => {
   })
 })
 
+//Connect front-end
+app.use("/", express.static(__dirname + "/heroku-frontend/build"));
+
 app.listen(PORT, () => {
   console.log('SERVER IS STARTED');
 })
