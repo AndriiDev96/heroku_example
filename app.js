@@ -1,4 +1,6 @@
 const express = require("express");
+/* Port for heroku */
+const { PORT = 3000 } = process.env;
 const app = express();
 
 app.get("/myName/", (rq, res) => {
@@ -7,6 +9,6 @@ app.get("/myName/", (rq, res) => {
   })
 })
 
-app.listen(4000, () => {
+app.listen(PORT, () => {
   console.log('SERVER IS STARTED');
 })
