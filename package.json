@@ -1,0 +1,23 @@
+{
+  "name": "heroku_example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndriiDev96/heroku_example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndriiDev96/heroku_example/issues"
+  },
+  "homepage": "https://github.com/AndriiDev96/heroku_example#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
